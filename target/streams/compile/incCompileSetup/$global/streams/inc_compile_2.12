@@ -1,0 +1,266 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.12.5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+21 items
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Expr.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Number$.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Number.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Prod$.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Prod.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Sum$.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Sum.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Val$.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Val.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$Cons$.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$Cons.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$Empty$.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$IntSet.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$List.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$Nil$.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$NonEmpty$.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$NonEmpty.class
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> /home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18.class
+binary dependencies:
+4 items
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> /home/costefan/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.5.jar
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> /home/costefan/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.5.jar
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> /usr/lib/jvm/java-8-oracle/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+21 items
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> homework3.PreAssignment
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> homework3.PreAssignment$
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> homework3.PreAssignment$Expr
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> homework3.PreAssignment$Number
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> homework3.PreAssignment$Number$
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> homework3.PreAssignment$Prod
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> homework3.PreAssignment$Prod$
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> homework3.PreAssignment$Sum
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> homework3.PreAssignment$Sum$
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> homework3.PreAssignment$Val
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> homework3.PreAssignment$Val$
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> intsets.IntSetsAndListsWorkshop_18
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> intsets.IntSetsAndListsWorkshop_18$
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> intsets.IntSetsAndListsWorkshop_18$Cons
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> intsets.IntSetsAndListsWorkshop_18$Cons$
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> intsets.IntSetsAndListsWorkshop_18$Empty$
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> intsets.IntSetsAndListsWorkshop_18$IntSet
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> intsets.IntSetsAndListsWorkshop_18$List
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> intsets.IntSetsAndListsWorkshop_18$Nil$
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> intsets.IntSetsAndListsWorkshop_18$NonEmpty
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> intsets.IntSetsAndListsWorkshop_18$NonEmpty$
+used names:
+121 items
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> &&
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> +
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> <init>
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> ==
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> AbstractFunction1
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> AbstractFunction2
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> AnyRef
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Array
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Expr
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Int
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> None
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Number
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Option
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> PreAssignment
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Predef
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Prod
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Product
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> ScalaRunTime
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Serializable
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Statics
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> String
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Sum
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Tuple2
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Unit
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> Val
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> _hashCode
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> _root_
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> _toString
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> a
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> asInstanceOf
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> eq
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> eval
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> finalizeHash
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> homework3
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> isInstanceOf
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> lOp
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> mix
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> n
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> println
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> rOp
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> runtime
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> scala
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> toString
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> typedProductIterator
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> ||
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> &&
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> +
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> ++
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> <
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> <init>
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> ==
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> >
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> A
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> AbstractFunction3
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> AnyRef
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Array
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> B
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Boolean
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Cons
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Empty
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Function1
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Function2
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Int
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> IntSet
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> IntSetsAndListsWorkshop_18
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> List
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Nil
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> NonEmpty
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> None
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Nothing
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Option
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Predef
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Product
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> ScalaRunTime
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Serializable
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Statics
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> String
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Tuple2
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Tuple3
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> Unit
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> _hashCode
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> _root_
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> anyHash
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> apply
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> asInstanceOf
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> combined
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> contains
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> el
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> eq
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> f
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> finalizeHash
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> foldRight
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> h
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> head
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> include
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> intsets
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> is1
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> is2
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> isInstanceOf
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> left
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> length
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> list1
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> map
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> mix
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> println
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> right
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> runtime
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> scala
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> str
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> t
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> tail
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> that
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> toString
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> typedProductIterator
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> unary_-
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> union
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> x
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> xs
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> ys
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> zero
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> ||
+product stamps:
+21 items
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$.class -> lastModified(1523276873000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Expr.class -> lastModified(1523276873000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Number$.class -> lastModified(1523276873000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Number.class -> lastModified(1523276873000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Prod$.class -> lastModified(1523276873000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Prod.class -> lastModified(1523276873000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Sum$.class -> lastModified(1523276873000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Sum.class -> lastModified(1523276873000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Val$.class -> lastModified(1523276873000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment$Val.class -> lastModified(1523276873000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/homework3/PreAssignment.class -> lastModified(1523276873000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$.class -> lastModified(1523276395000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$Cons$.class -> lastModified(1523276395000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$Cons.class -> lastModified(1523276395000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$Empty$.class -> lastModified(1523276395000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$IntSet.class -> lastModified(1523276395000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$List.class -> lastModified(1523276395000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$Nil$.class -> lastModified(1523276395000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$NonEmpty$.class -> lastModified(1523276395000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18$NonEmpty.class -> lastModified(1523276395000)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/target/scala-2.12/classes/intsets/IntSetsAndListsWorkshop_18.class -> lastModified(1523276395000)
+source stamps:
+2 items
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> hash(2ba7df59ecde9fce607636e78f5634e90a4eda10)
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> hash(2853d4e248c6321f5ae05216d3b807e81d6fceab)
+binary stamps:
+2 items
+/home/costefan/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.5.jar -> lastModified(1521208068000)
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> lastModified(1474997458000)
+class names:
+2 items
+/home/costefan/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.5.jar -> scala.Product
+/usr/lib/jvm/java-8-oracle/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+2 items
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAFPRowAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAMHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cBbbq/Z0AA1QcmVBc3NpZ25tZW50c3EAfgAM7MzTJHQABm5vdGlmeXNxAH4ADAwDHGh0AAd1bmFwcGx5c3EAfgAMbRs6h3QAB2N1cnJpZWRzcQB+AAzCbkb/dAAEd2FpdHNxAH4ADPhtsA90AA5jb3B5JGRlZmF1bHQkMnNxAH4ADLNJU4J0AA0kYXNJbnN0YW5jZU9mc3EAfgAMDjdFjXQAAW5zcQB+AAyZ2T4zdAAHY29tcG9zZXNxAH4ADBbEF8h0AAxwcm9kdWN0QXJpdHlzcQB+AAzKYxRqdAAGZXF1YWxzc3EAfgAMJqscZHQABk51bWJlcnNxAH4ADEk1kx90AAxhc0luc3RhbmNlT2ZzcQB+AAyQLrvedAAERXhwcnNxAH4ADDtYIGJ0AAxzeW5jaHJvbml6ZWRzcQB+AAyboULBdAABYXNxAH4ADGNqqit0AA0kaXNJbnN0YW5jZU9mc3EAfgAMG3kBTnQAB2FuZFRoZW5zcQB+AAyzr4VKdAAGdHVwbGVkc3EAfgAMAAgv4nQACGNhbkVxdWFsc3EAfgAMzHzQ73QABG1haW5zcQB+AAzBvPXQdAADVmFsc3EAfgAMp/JHlHQADXByb2R1Y3RQcmVmaXhzcQB+AAwI7r0QdAAJbm90aWZ5QWxsc3EAfgAMtfc+gnQAC3JlYWRSZXNvbHZlc3EAfgAMCBp0RnQADGlzSW5zdGFuY2VPZnNxAH4ADEL+YRF0AARldmFsc3EAfgAMlG4JwXQAA1N1bXNxAH4ADER8dlR0AANyT3BzcQB+AAwFw0YrdAADbE9wc3EAfgAM3wapUHQABjxpbml0PnNxAH4ADIDoCpR0AAVhcHBseXNxAH4ADJXZm2J0AAI9PXNxAH4ADEqvlex0AAVjbG9uZXNxAH4ADPcMrNR0AAYkaW5pdCRzcQB+AAyV3Y5bdAAEY29weXNxAH4ADBFriXF0AAh0b1N0cmluZ3NxAH4ADOkcNVB0AAIhPXNxAH4ADMojcyJ0AAhnZXRDbGFzc3NxAH4ADEiDf+N0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADAdLyKV0AAJuZXNxAH4ADKlxZgF0AAJlcXNxAH4ADEnLjgt0AARQcm9kc3EAfgAMPqzRxnQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADIiePRV0AAIjI3NxAH4ADCJjUzB0AAhmaW5hbGl6ZXNxAH4ADPkaEYF0AA5wcm9kdWN0RWxlbWVudHNxAH4ADPBgaHZ0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AHd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABdob21ld29yazMuUHJlQXNzaWdubWVudHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0AAxzY2FsYS5uYXRpdmVzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AJF4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AJAAcHNxAH4AlXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgB3TAAJaW5oZXJpdGVkcQB+AHdMAAdwYXJlbnRzcQB+AHd4cQB+AJlzcQB+AJAAcHNxAH4AlXVxAH4AcgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AeHEAfgCBdXEAfgCCAAAAAHNxAH4AhABxAH4AN3VxAH4AhwAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgCYdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AmHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AtnVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AKN4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AIp0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AKpbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AJhzcQB+AKl0AAVBcnJheXEAfgCvdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AKl0AAZTdHJpbmdzcQB+AK1zcQB+ALB1cQB+ALMAAAADc3EAfgC1dAAEamF2YXNxAH4AtXQABGxhbmdxAH4AunNxAH4AkABwc3EAfgCVdXEAfgByAAAAAHNxAH4AkABwc3EAfgCVdXEAfgDOAAAAAnNxAH4AqXQABk9iamVjdHEAfgDSc3EAfgCpdAADQW55cQB+AK91cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAlob21ld29yazNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAWKqYHmEdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAZC9ob21lL2Nvc3RlZmFuL1VuaXZlci9iYWNrdXAvVUNVLzIgc2VtL3BhcmFsbGVsX2Z1bmNfcHJvZ3JhbW1pbmcvaG9tZXdvcmszL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQrp99Z7N6fzmB2NuePVjTpCk7aEA==
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHD+qFDBAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAANnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cK5DLVF0AAZub3RpZnlzcQB+AAwrwFoZdAAHdW5hcHBseXNxAH4ADCnAytR0AAdjdXJyaWVkc3EAfgAMIpYci3QAA05pbHNxAH4ADLJpJBR0AAR3YWl0c3EAfgAMUXrlfHQACWZvbGRSaWdodHNxAH4ADJru4nx0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADO1HuX50AA0kYXNJbnN0YW5jZU9mc3EAfgAMrA3J+nQABXVuaW9uc3EAfgAMDswC13QAA21hcHNxAH4ADP1R+8p0AAxwcm9kdWN0QXJpdHlzcQB+AAwtdqhXdAAGZXF1YWxzc3EAfgAMmyR3OXQABGhlYWRzcQB+AAwcVyv0dAAMYXNJbnN0YW5jZU9mc3EAfgAMCGau43QADHN5bmNocm9uaXplZHNxAH4ADIzi2rR0AARsZWZ0c3EAfgAMoWQbynQAAmVsc3EAfgAMzixwqXQADSRpc0luc3RhbmNlT2ZzcQB+AAzrb4kidAAGdHVwbGVkc3EAfgAM8p5LLnQACGNhbkVxdWFsc3EAfgAMUbPED3QABHRhaWxzcQB+AAxQL0TddAAEbWFpbnNxAH4ADDG7uoZ0AA1wcm9kdWN0UHJlZml4c3EAfgAMsMMPx3QABENvbnNzcQB+AAw31kUQdAAJbm90aWZ5QWxsc3EAfgAMIz30IHQAC3JlYWRSZXNvbHZlc3EAfgAMiO8mQnQADGlzSW5zdGFuY2VPZnNxAH4ADMjDFbR0AAY8aW5pdD5zcQB+AAz1hGaadAAaSW50U2V0c0FuZExpc3RzV29ya3Nob3BfMThzcQB+AAwx3Y9udAAFYXBwbHlzcQB+AAzRXvK4dAACKytzcQB+AAxtaJSPdAAFRW1wdHlzcQB+AAwLq3RrdAACPT1zcQB+AAwLiHDEdAAFY2xvbmVzcQB+AAz6EcfNdAAGJGluaXQkc3EAfgAMulVlhHQAB2luY2x1ZGVzcQB+AAzvHoQ7dAAOY29weSRkZWZhdWx0JDNzcQB+AAzv6ZKqdAAEY29weXNxAH4ADAiEUj10AAh0b1N0cmluZ3NxAH4ADIc6f4R0AAIhPXNxAH4ADEXhdwl0AAhnZXRDbGFzc3NxAH4ADICpNdd0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADAILmNx0AARMaXN0c3EAfgAM6vlfNXQACGNvbnRhaW5zc3EAfgAMYR0yQHQAAm5lc3EAfgAMATbWSXQAAmVxc3EAfgAMseKYqXQAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADDOyU+J0AAZJbnRTZXRzcQB+AAy7UsOGdAAITm9uRW1wdHlzcQB+AAwzXfbsdAAFcmlnaHRzcQB+AAx+fusidAACIyNzcQB+AAw6RrSbdAAIZmluYWxpemVzcQB+AAwASkp2dAAOcHJvZHVjdEVsZW1lbnRzcQB+AAw/1sJTdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgCDeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAiaW50c2V0cy5JbnRTZXRzQW5kTGlzdHNXb3Jrc2hvcF8xOHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0AAxzY2FsYS5uYXRpdmVzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AJ14cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AJwBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AINMAAlpbmhlcml0ZWRxAH4Ag0wAB3BhcmVudHNxAH4Ag3hxAH4ApXNxAH4AnAF1cQB+AH4AAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AIRxAH4AjXVxAH4AjgAAAABzcQB+AJAAcQB+ADl1cQB+AJMAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4ApHQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AKRzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AMB1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgCteHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgCWdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgC0WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgCkc3EAfgCzdAAFQXJyYXlxAH4AuXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgCzdAAGU3RyaW5nc3EAfgC3c3EAfgC6dXEAfgC9AAAAA3NxAH4Av3QABGphdmFzcQB+AL90AARsYW5ncQB+AMRwc3EAfgCcAXVxAH4AfgAAAABwc3EAfgCcAXVxAH4A2AAAAAJzcQB+ALN0AAZPYmplY3RxAH4A3HNxAH4As3QAA0FueXEAfgC5cHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAdpbnRzZXRzc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFiqlj3K3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AGQvaG9tZS9jb3N0ZWZhbi9Vbml2ZXIvYmFja3VwL1VDVS8yIHNlbS9wYXJhbGxlbF9mdW5jX3Byb2dyYW1taW5nL2hvbWV3b3JrMy90YXJnZXQvc2NhbGEtMi4xMi9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUKFPU4kjGMh9a4FIW07gH6B1vzqs=
+external apis:
+0 items
+source infos:
+2 items
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/homework3/PreAssignment.scala -> 
+AAAAAQAAAQAAAAkAICAgICBkZWYgZXZhbDogSW50ID0gdGhpcyBtYXRjaCB7AQAAAIMBAAAAFAEAFCAgICAgICAgICAgICAgICAgICAgAQB3L2hvbWUvY29zdGVmYW4vVW5pdmVyL2JhY2t1cC9VQ1UvMiBzZW0vcGFyYWxsZWxfZnVuY19wcm9ncmFtbWluZy9ob21ld29yazMvc3JjL21haW4vc2NhbGEvaG9tZXdvcmszL1ByZUFzc2lnbm1lbnQuc2NhbGEBAHcvaG9tZS9jb3N0ZWZhbi9Vbml2ZXIvYmFja3VwL1VDVS8yIHNlbS9wYXJhbGxlbF9mdW5jX3Byb2dyYW1taW5nL2hvbWV3b3JrMy9zcmMvbWFpbi9zY2FsYS9ob21ld29yazMvUHJlQXNzaWdubWVudC5zY2FsYQBWbWF0Y2ggbWF5IG5vdCBiZSBleGhhdXN0aXZlLgpJdCB3b3VsZCBmYWlsIG9uIHRoZSBmb2xsb3dpbmcgaW5wdXRzOiBQcm9kKF8sIF8pLCBWYWwoXykBAAAAAA==
+/home/costefan/Univer/backup/UCU/2 sem/parallel_func_programming/homework3/src/main/scala/intsets/workshop_4.scala -> 
+AAAAAAAAAAA=
+compilations:
+4 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYqpY9yt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZC9ob21lL2Nvc3RlZmFuL1VuaXZlci9iYWNrdXAvVUNVLzIgc2VtL3BhcmFsbGVsX2Z1bmNfcHJvZ3JhbW1pbmcvaG9tZXdvcmszL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYqpZj+91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZC9ob21lL2Nvc3RlZmFuL1VuaXZlci9iYWNrdXAvVUNVLzIgc2VtL3BhcmFsbGVsX2Z1bmNfcHJvZ3JhbW1pbmcvaG9tZXdvcmszL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYqpaBbN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZC9ob21lL2Nvc3RlZmFuL1VuaXZlci9iYWNrdXAvVUNVLzIgc2VtL3BhcmFsbGVsX2Z1bmNfcHJvZ3JhbW1pbmcvaG9tZXdvcmszL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABYqpgeYR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAZC9ob21lL2Nvc3RlZmFuL1VuaXZlci9iYWNrdXAvVUNVLzIgc2VtL3BhcmFsbGVsX2Z1bmNfcHJvZ3JhbW1pbmcvaG9tZXdvcmszL3RhcmdldC9zY2FsYS0yLjEyL2NsYXNzZXN0AAEv
