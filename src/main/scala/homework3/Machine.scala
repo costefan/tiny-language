@@ -18,9 +18,14 @@ final class Machine {
 
   def reductionStep(expr: Expression): Expression = {
     expr match {
-      case Number(n) => Number(n)
-      case Prod(lOp, rOp) => Number(reductionStep(lOp).eval * reductionStep(rOp).eval)
-      case Sum(lOp, rOp) => Number(reductionStep(lOp).eval + reductionStep(rOp).eval)
+      case Prod(lOp, rOp) =>
+        if (lOp.isReduciable) Prod(reductionStep(lOp), rOp)
+        else if (rOp.isReduciable) Prod(lOp, reductionStep(rOp))
+        else Number(expr.eval)
+      case Sum(lOp, rOp) =>
+        if (lOp.isReduciable) Sum(reductionStep(lOp), rOp)
+        else if (rOp.isReduciable) Sum(lOp, reductionStep(rOp))
+        else Number(expr.eval)
     }
   }
 }
@@ -30,7 +35,7 @@ object Runner {
     println(
       new Machine().run(
         Prod(Sum(Number(3), Number(2)),
-             Sum(Number(2), Number(1)))
+          Number(5))
       )
     )
   }
