@@ -1,24 +1,44 @@
 package homework3
 
+import java.beans.Expression
+import java.security.KeyException
+
 /**
  * Created by costefan on 09.04.18.
  */
 sealed trait Expression {
 
-  def evalArg(argument: Expression, hPris: Boolean): Int = {
-    argument match {
-      case Var(a) => 1
-      case Number(n) => n
-      case Sum(lOp, rOp) => lOp.eval + rOp.eval
-      case Prod(lOp, rOp) => lOp.eval * rOp.eval
-    }
+//  def evalVariable(env: Map[String, Expression], key: String): Expression = {
+//    val x: Option[Expression] = env get key
+//    x match {
+//      case Expression(n) =>
+//    }
+//  }
+  def evalArg: Int = this match {
+    case Number(n) => n
+    case _ => throw new Exception("BlaBla")
   }
 
-  def eval: Int = this match {
-    case Number(n) => n
-    case Sum(lOp, rOp) => lOp.eval +  rOp.eval
-    case Prod(lOp, rOp) => lOp.eval * rOp.eval
-    case Var(a) => 1
+  def checkNumber(expr: Expression): Boolean = expr match {
+    case Number(n) => true
+    case _ => false
+  }
+
+
+  def eval(env: Map[String, Expression]): Expression = this match {
+    case Number(n) => Number(n)
+    case Var(a: String) => if (env contains a) env(a).eval(env) else throw new KeyException()
+    case BooleanType(n) => BooleanType(n)
+    case Sum(lOp: Expression, rOp: Expression) =>
+      if (checkNumber(lOp) && checkNumber(rOp)) Number(lOp.evalArg + rOp.evalArg)
+      else throw new Exception("Inconsistent sum types.")
+    case Prod(lOp: Expression, rOp: Expression) =>
+      if (checkNumber(lOp) && checkNumber(rOp)) Number(lOp.evalArg * rOp.evalArg)
+      else throw new Exception("Inconsistent prod types.")
+    case Less(lOp: Expression, rOp: Expression) =>
+      if (checkNumber(lOp) && checkNumber(rOp)) BooleanType(lOp.evalArg < rOp.evalArg)
+      else throw new Exception("We cannot compare not number types.")
+//    case IfElse(lOp: Expression, rOp: Expression) =>
   }
 
   def showArg(argument: Expression, hPris: Boolean): String = {
@@ -40,9 +60,7 @@ sealed trait Expression {
   def isReduciable: Boolean = {
     this match {
       case Number(n) => false
-      case Var(a) => true
-      case Sum(lOp, rOp) => true
-      case Prod(lOp, rOp) =>  true
+      case _ => true
     }
   }
 
@@ -55,6 +73,7 @@ case class Number(n: Int) extends Expression
 case class BooleanType(boolVal: Boolean) extends Expression
 
 case class Sum(lOp: Expression, rOp: Expression) extends Expression
+case class Less(lop: Expression, rOp: Expression) extends Expression
 case class Var(a: String) extends Expression
 case class Prod(lOp: Expression, rOp: Expression) extends Expression
 case class IfElse(checker: Expression, lOp: Expression, rOp: Expression) extends Expression
