@@ -8,12 +8,6 @@ import java.security.KeyException
  */
 sealed trait Expression {
 
-//  def evalVariable(env: Map[String, Expression], key: String): Expression = {
-//    val x: Option[Expression] = env get key
-//    x match {
-//      case Expression(n) =>
-//    }
-//  }
   def evalArg: Int = this match {
     case Number(n) => n
     case _ => throw new Exception("BlaBla")
@@ -25,20 +19,18 @@ sealed trait Expression {
   }
 
 
-  def eval(env: Map[String, Expression]): Expression = this match {
+  def eval(env: Map[String, Any]): Expression = this match {
     case Number(n) => Number(n)
-    case Var(a: String) => if (env contains a) env(a).eval(env) else throw new KeyException()
     case BooleanType(n) => BooleanType(n)
     case Sum(lOp: Expression, rOp: Expression) =>
       if (checkNumber(lOp) && checkNumber(rOp)) Number(lOp.evalArg + rOp.evalArg)
-      else throw new Exception("Inconsistent sum types.")
+      else throw new Exception("Inconsistent sum type")
     case Prod(lOp: Expression, rOp: Expression) =>
       if (checkNumber(lOp) && checkNumber(rOp)) Number(lOp.evalArg * rOp.evalArg)
-      else throw new Exception("Inconsistent prod types.")
+      else throw new Exception("Inconsistent prod type")
     case Less(lOp: Expression, rOp: Expression) =>
       if (checkNumber(lOp) && checkNumber(rOp)) BooleanType(lOp.evalArg < rOp.evalArg)
-      else throw new Exception("We cannot compare not number types.")
-//    case IfElse(lOp: Expression, rOp: Expression) =>
+      else throw new Exception("Inconsistent Less type")
   }
 
   def showArg(argument: Expression, hPris: Boolean): String = {
@@ -53,21 +45,23 @@ sealed trait Expression {
   def show: String = this match {
     case Number(n) => n.toString
     case Var(a) => a
+    case BooleanType(n: Boolean) => n.toString
     case Sum(lOp, rOp) => this.showArg(lOp, hPris = false) + " + " + this.showArg(rOp, hPris = false)
     case Prod(lOp, rOp) =>  this.showArg(lOp, hPris = true) + " * " + this.showArg(rOp, hPris = true)
+    case IfElse(checker, lOp, rOp) => "if " + this.showArg(checker, hPris = false) + "then" +
+      this.showArg(lOp, hPris = false) + "else" + this.showArg(rOp, hPris = false)
   }
 
   def isReduciable: Boolean = {
     this match {
       case Number(n) => false
+      case BooleanType(n) => false
       case _ => true
     }
   }
 
   override def toString: String = this.show
 }
-
-sealed trait ReturnType
 
 case class Number(n: Int) extends Expression
 case class BooleanType(boolVal: Boolean) extends Expression
