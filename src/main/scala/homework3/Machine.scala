@@ -3,42 +3,47 @@ import homework3._
 final class Machine {
 
   def run(stat: Statement, env: Map[String, Any]): Map[String, Any] = {
-    stat match {
-      case DoNothing(expr: Expression) => reduce(expr, env)
-      case Assign(variable: String, expr: Expression) =>
-        env.updated(variable, reduce(expr, env))
-      case If(expression: Expression, stat1: Statement, stat2: Statement) =>
-        expression match {
-          case BooleanType(n) => if (n) run(stat1, env) else run(stat2, env)
-          case _ => env.updated("__errors", "Express should be Boolean")
-            env
-        }
-      case While(expr: Expression, stat: Statement) => {
-        val reduced = reduce(expr, env)
-        reduced match {
-          case BooleanType(n) => if (n) run(stat, env)
-          case _ => env.updated("__error", "Error")
-            env
+    try
+      stat match {
+        case DoNothing(expr: Expression) =>
+          reduce(expr, env)
+          env
+        case Assign(variable: String, expr: Expression) =>
+          env.updated(variable, reduce(expr, env))
+        case If(expression: Expression, stat1: Statement, stat2: Statement) =>
+          expression match {
+            case BooleanType(n) => if (n) run(stat1, env) else run(stat2, env)
+            case _ =>
+              env.updated("__errors", "Express should be Boolean")
+          }
+        case While(expr: Expression, stat: Statement) => {
+          val reduced = reduce(expr, env)
+          reduced match {
+            case BooleanType(n) =>
+              var newEnv = env
+              while(n) {
+                println(newEnv)
+                newEnv = run(stat, newEnv)
+              }
+              env
+            case _ =>
+              throw new Exception("Error, cannot reduce to Bool type")
+          }
         }
       }
-//      case Seq(stats: Statement) =>
+    catch {
+      case exc: Exception =>
+        val msg = exc.getMessage
+        env.updated("__error", msg)
     }
-
-    env
   }
 
   def reduce(expr: Expression, env: Map[String, Any]): Expression = {
     println(expr)
-    try
-      if (expr.isReduciable)
-          reduce(reductionStep(expr, env), env)
-      else
-        expr
-    catch {
-      case exc: Exception =>
-        println(exc.getMessage)
-        expr
-    }
+    if (expr.isReduciable)
+        reduce(reductionStep(expr, env), env)
+    else
+      expr
   }
 
   def reductionStep(expr: Expression, env: Map[String, Any]): Expression = {
@@ -87,9 +92,40 @@ object Runner {
         env
       )
     )
-//    var a = new Machine().reduce(
-//        IfElse(BooleanType(true), Number(2), Number(3)),
-//        env
+    println(
+      new Machine().reduce(
+        Less(
+          Var("x"),
+          Var("y")
+        ), env
+      )
+    )
+    val st = new Machine().run(
+      Assign("x", Number(5)), env
+    )
+    println(st)
+    println(
+      new Machine().run(
+        DoNothing(
+        IfElse(
+          BooleanType(true),
+          Var("z"),
+          Var("y")
+        )
+        ), env
+      )
+    )
+    new Machine().run(
+        If(BooleanType(false), Assign("x", Number(5)), Assign("x", Number(22))), env
+    )
+//    var a = new Machine().run(
+//      While(
+//        Less(Var("x"), Number(10)),
+//        Assign("x", Sum(Var("x"), Number(1)))
+//      ), env
 //    )
+//    println(a)
+
+
   }
 }

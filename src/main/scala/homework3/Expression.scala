@@ -1,8 +1,5 @@
 package homework3
 
-import java.beans.Expression
-import java.security.KeyException
-
 /**
  * Created by costefan on 09.04.18.
  */
@@ -10,7 +7,7 @@ sealed trait Expression {
 
   def evalArg: Int = this match {
     case Number(n) => n
-    case _ => throw new Exception("BlaBla")
+    case _ => throw new Exception("Error in evalArg (Not number type)")
   }
 
   def checkNumber(expr: Expression): Boolean = expr match {
@@ -37,6 +34,7 @@ sealed trait Expression {
     argument match {
       case Var(a) => a
       case Number(n) => n.toString
+      case BooleanType(n: Boolean) => n.toString
       case Sum(lOp, rOp) => if (hPris) "(" + lOp.show + " + " + rOp.show + " ) " else lOp.show + " + " + rOp.show
       case Prod(lOp, rOp) => lOp.show + " * " + rOp.show
     }
@@ -48,8 +46,9 @@ sealed trait Expression {
     case BooleanType(n: Boolean) => n.toString
     case Sum(lOp, rOp) => this.showArg(lOp, hPris = false) + " + " + this.showArg(rOp, hPris = false)
     case Prod(lOp, rOp) =>  this.showArg(lOp, hPris = true) + " * " + this.showArg(rOp, hPris = true)
-    case IfElse(checker, lOp, rOp) => "if " + this.showArg(checker, hPris = false) + "then" +
-      this.showArg(lOp, hPris = false) + "else" + this.showArg(rOp, hPris = false)
+    case IfElse(checker, lOp, rOp) => "if " + this.showArg(checker, hPris = false) + " then " +
+      this.showArg(lOp, hPris = false) + " else " + this.showArg(rOp, hPris = false)
+    case Less(lop, rOp) => lop.toString + " < " + rOp.toString
   }
 
   def isReduciable: Boolean = {
