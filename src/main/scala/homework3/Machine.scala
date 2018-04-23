@@ -2,6 +2,15 @@ import homework3._
 
 final class Machine {
 
+  def innerFunc(expr: Expression, env: Map[String, Any]): Boolean = {
+    reduce(expr, env) match {
+      case BooleanType(n) =>
+        n
+      case _ =>
+        throw new Exception("Error, cannot reduce to Bool type")
+    }
+  }
+
   def run(stat: Statement, env: Map[String, Any]): Map[String, Any] = {
     try
       stat match {
@@ -14,23 +23,17 @@ final class Machine {
           expression match {
             case BooleanType(n) => if (n) run(stat1, env) else run(stat2, env)
             case _ =>
-              env.updated("__errors", "Express should be Boolean")
+              throw new Exception("Express should be Boolean.")
           }
         case While(expr: Expression, stat: Statement) => {
-          val reduced = reduce(expr, env)
-          reduced match {
-            case BooleanType(n) =>
-              var newEnv = env
-              while(n) {
-                println(newEnv)
-                newEnv = run(stat, newEnv)
-              }
-              env
-            case _ =>
-              throw new Exception("Error, cannot reduce to Bool type")
+          var newEnv = env
+          while (innerFunc(expr, newEnv)) {
+            newEnv = run(stat, newEnv)
           }
+          newEnv
         }
       }
+
     catch {
       case exc: Exception =>
         val msg = exc.getMessage
@@ -63,6 +66,7 @@ final class Machine {
         env(a) match {
           case x: Int => Number(x)
           case x: Boolean => BooleanType(x)
+          case Number(x) => Number(x)
           case _ => throw new Exception("Key was not found in Map object")
         }
       } else throw new Exception("Key was not found in Map object")
@@ -118,14 +122,12 @@ object Runner {
     new Machine().run(
         If(BooleanType(false), Assign("x", Number(5)), Assign("x", Number(22))), env
     )
-//    var a = new Machine().run(
-//      While(
-//        Less(Var("x"), Number(10)),
-//        Assign("x", Sum(Var("x"), Number(1)))
-//      ), env
-//    )
-//    println(a)
-
-
+    var a = new Machine().run(
+      While(
+        Less(Var("x"), Number(10)),
+        Assign("x", Sum(Var("x"), Number(1)))
+      ), env
+    )
+    println(a)
   }
 }
